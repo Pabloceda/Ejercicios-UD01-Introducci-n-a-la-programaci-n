@@ -1,7 +1,6 @@
 contadorNegativo = 0
 contadorPositivo = 0
 hayNegativo = False
-#El try y except se utilizan para manejar errores en caso de que el usuario ingrese un valor no numérico.
 try:
     numero = int(input("Ingrese un número entero (ingrese 0 para finalizar): "))
     while numero != 0:
